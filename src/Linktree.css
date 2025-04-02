@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
   }
   
   .link {
@@ -41,9 +42,33 @@
     border-radius: 5px;
     font-size: 18px;
     transition: background 0.3s ease;
+    text-align: center;
   }
   
   .link:hover {
     background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .linktree-box {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .link {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .linktree-box {
+      max-width: 500px;
+    }
   }
   
