@@ -5,7 +5,7 @@ const links = [
   { title: "Facebook:raphaaa", url: "https://www.instagram.com/raphaaaofficial?igsh=MWh5YWpzejQ3NA%3D%3D&utm_source=qr" },
   { title: "Instagram:Citimart", url: "https://www.instagram.com/citimart_official?igsh=MWx1Mnc1aTl2cnFpdg==" },
   { title: "Facebook:Citimart", url: "https://facebook.com/share/16R31P8msU/?mibextid=wwXlfr" },
-  { title: "Whatsapp", url: "https://web.whatsapp.com/" },
+  { title: "Whatsapp", url: "https://whatsapp.com/" },
 //   { title: "Blog", url: "https://your-blog.com/" }
 ];
 
